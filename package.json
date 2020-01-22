@@ -2,6 +2,9 @@
   "name": "curso-api-rest-sequelize",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec sucrase-node ./src/index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
